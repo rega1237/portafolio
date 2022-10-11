@@ -65,14 +65,14 @@ const data = [
   {
     id: 10,
     title: 'SpendLess App',
-    description: 'In this project I build a portfolio website using Javascript, HTML and CSS based on a design from a Figma file.',
+    description: 'App build with ruby on rails framework where you can create categories and add expenses and see the total you spend.',
     image: 'img/projects/spendless.png',
     link: 'https://spendless-rails.herokuapp.com/',
   },
   {
     id: 11,
     title: 'Home Stadium',
-    description: 'In this project I build a portfolio website using Javascript, HTML and CSS based on a design from a Figma file.',
+    description: 'Full-Stack group project builded with Rails as endpoint API and React as front where you can make reservation of your favorite teams.',
     image: 'img/projects/home_stadium.png',
     link: 'https://homestadium.netlify.app/login',
   },
