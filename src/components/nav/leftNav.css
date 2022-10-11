@@ -1,48 +1,9 @@
-/*nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 25%;
-  height: 100vh;
-  gap: 1.5rem;
-  padding: 1.5rem;
-}*/
-
-/*.avatar > img {
-  width: 150px;
-  border: solid 0.5rem #5b5b5b;
-  border-radius: 50%;
-}*/
-
-/*.avatar > p {
-  font-weight: 600;
-  text-align: center;
-  background-color: #5b5b5b;
-  padding: 0.2rem 0;
-  width: 70%;
-  margin: -10px auto;
-  color: antiquewhite;
-}*/
-
-/*nav > ul > li {
-  list-style: none;
-  margin: 15px 0;
-  text-align: center;
-  font-size: 1.5rem;
-}*/
-
-/*nav > ul > li > a {
-  text-decoration: none;
-  color: black;
-}*/
-
 .nav {
   @apply hidden md:flex flex-col justify-center items-center w-[25%] h-screen gap-6 p-6 fixed top-0 left-0 bg-slate-50 z-10;
 }
 
 .nav_active {
-  @apply flex flex-col justify-center items-center w-[100%] h-screen gap-6 p-6 fixed top-0 left-0 bg-slate-50 z-10;;
+  @apply flex flex-col justify-center items-center w-[100%] h-screen gap-6 p-6 fixed top-0 left-0 bg-slate-50 z-10;
 }
 
 .nav_mobile {
@@ -54,7 +15,7 @@
 }
 
 .avatar {
-  @apply w-[200px]
+  @apply w-[200px];
 }
 
 .level {
@@ -62,18 +23,8 @@
 }
 
 .nav_element {
-  @apply list-none my-3 text-center text-xl
+  @apply list-none my-3 text-center text-xl;
 }
-
-
-
-
-
-
-
-
-
-
 
 .social > a {
   text-decoration: none;

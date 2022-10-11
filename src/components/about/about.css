@@ -2,11 +2,6 @@
   @apply flex flex-col items-center justify-center w-[100%] md:w-[75%] absolute right-0 z-0 bg-[#f5f5f5] pt-4 pb-4;
 }
 
-
 .picture {
-  @apply w-[150px] h-[150px] rounded-full mb-3; 
+  @apply w-[150px] h-[150px] rounded-full mb-3;
 }
-
-
-
-

@@ -1,7 +1,3 @@
-/*.container_projects {
-  @apply flex flex-col items-center justify-center h-screen w-[79%] bg-[#f5f5f5];
-}*/
-
 .projects {
   @apply w-4/5 my-0 mx-auto bg-[#f5f5f5];
 }
@@ -13,20 +9,21 @@
 .slick-slide > div {
   @apply my-0 mx-[10px];
 }
+
 .slick-list {
   @apply my-0 mx-[-10px];
 }
 
-.slick-prev:before,
-.slick-next:before {
-  color: #4A87CE!important;
+.slick-prev::before,
+.slick-next::before {
+  color: #4a87ce !important;
 }
 
 .projects__container__card {
   @apply border-[1px] h-[430px] border-[#fff] border-solid bg-[#787878] rounded-lg overflow-hidden pb-6 text-[#fff] cursor-pointer;
 }
 
-.projects__container__card > h3  {
+.projects__container__card > h3 {
   font-size: 1.2rem;
   font-weight: 800;
   margin: 20px 0 10px 20px;
@@ -44,5 +41,5 @@
 }
 
 .project_btn {
-  @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center ml-[20px] mb-2
+  @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center ml-[20px] mb-2;
 }
