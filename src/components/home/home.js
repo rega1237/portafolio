@@ -24,7 +24,7 @@ const Home = () => (
       </h1>
     </div>
     <div className="absolute top-[75%] flex gap-[2rem]">
-      <NavLink to="/about" className="home_link"> Resume </NavLink>
+      <a href="https://docs.google.com/document/d/1Jmqc05pJfttTP4IKVy99AYlff2kXcFERkJNblyOgzoU/edit?usp=sharing" className="home_link" target="_blank" rel="noreferrer"> Resume </a>
       <NavLink to="/contact" className="home_link"> Contact </NavLink>
     </div>
   </div>
