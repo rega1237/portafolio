@@ -11,7 +11,7 @@ const data = [
     title: 'SpendLess App',
     description: 'App build with ruby on rails framework where you can create categories and add expenses and see the total you spend.',
     image: 'img/projects/spendless.png',
-    link: 'https://spendless-rails.herokuapp.com/',
+    link: 'https://spendless.onrender.com/',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const data = [
     title: 'Monitor Crypto',
     description: 'Project build using react to fetch and show the top 100 crypto list from API of Poloinex.',
     image: 'img/projects/monitor_crypto.png',
-    link: 'https://monitor-crypto-mobile.herokuapp.com/',
+    link: 'https://monitorcrypto.netlify.app/',
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const data = [
     title: 'Book Store',
     description: 'Book Store is a SPA built with React where you can display a list of books, add a book and delete a book.',
     image: 'img/projects/bookstore.png',
-    link: 'https://bookcreator.herokuapp.com/',
+    link: 'https://bookcreator.netlify.app/',
   },
   {
     id: 7,
