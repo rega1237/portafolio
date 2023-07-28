@@ -1,24 +1,24 @@
 const data = [
   {
     id: 1,
+    title: 'Conectarme by Irina Faneite',
+    description: 'Webpage build with HTML, CSS and Javascript for a client using client only checkout stripe to sell tickets for her conference in houston.',
+    image: 'img/projects/conectarme_web.png',
+    link: 'https://irinafaneite.com',
+  },
+  {
+    id: 2,
     title: 'Home Stadium',
     description: 'Full-Stack group project builded with Rails as endpoint API and React as front where you can make reservation of your favorite teams.',
     image: 'img/projects/home_stadium.png',
     link: 'https://homestadium.netlify.app/login',
   },
   {
-    id: 2,
+    id: 3,
     title: 'SpendLess App',
     description: 'App build with ruby on rails framework where you can create categories and add expenses and see the total you spend.',
     image: 'img/projects/spendless.png',
     link: 'https://spendless.onrender.com/',
-  },
-  {
-    id: 3,
-    title: 'School Library',
-    description: 'Application built in ruby based on a school library where books can be rented by teachers or students. You can add books, students, teachers.',
-    image: 'img/projects/school_library.png',
-    link: 'https://github.com/rega1237/OOP-school-library',
   },
   {
     id: 4,
@@ -57,24 +57,10 @@ const data = [
   },
   {
     id: 9,
-    title: 'Portfolio',
-    description: 'In this project I build a portfolio website using Javascript, HTML and CSS based on a design from a Figma file.',
-    image: 'img/projects/portfolio.png',
-    link: 'https://rega1237.github.io/',
-  },
-  {
-    id: 10,
     title: 'Crypto Convention',
     description: 'This is a page of a conference based on a template, I used HTML, CSS and Javascript to develop this page',
     image: 'img/projects/crypto_convention.png',
     link: 'https://rega1237.github.io/cap-crypto/index.html',
-  },
-  {
-    id: 11,
-    title: 'To do list',
-    description: 'A to-do list app where you can add to-dos and remove completed ones. Developed using Javascript, HTML and CSS.',
-    image: 'img/projects/to_do.png',
-    link: 'https://rega1237.github.io/to-do-list/',
   },
 ];
 
